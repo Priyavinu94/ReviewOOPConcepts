@@ -25,10 +25,6 @@ public class Account {
 		return userName;
 	}
 
-	public void setUserName(String userName) {
-		this.userName = userName;
-	}
-
 	public int getPinNo() {
 		return pinNo;
 	}
@@ -39,10 +35,6 @@ public class Account {
 
 	public double getBalance() {	//this method retrieves the value of balance.
 		return balance;
-	}
-
-	public void setBalance(double balance) {
-		this.balance = balance;
 	}
 
 	boolean isValidCredentials(String inputUserName, int inputPinNo) {

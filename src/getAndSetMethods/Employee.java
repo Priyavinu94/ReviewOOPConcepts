@@ -12,8 +12,8 @@ public class Employee {
 	String getName() {
 		return name;
 	}
-	void setName(String newName){
-		name = newName;
+	void setName(String name){
+		this.name = name;
 	}
 	
 	int getEmpId() {

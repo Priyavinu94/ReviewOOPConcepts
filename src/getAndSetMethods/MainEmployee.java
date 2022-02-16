@@ -8,6 +8,7 @@ public class MainEmployee {
 		// TODO Auto-generated method stub
 
 		Employee emp = new Employee();
+		Employee emp2 = new Employee();
 
 		System.out.println("Directly calling the variable using object reference");
 		emp.name = "Neeru";
